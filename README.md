@@ -3,6 +3,10 @@
 ## Example
 ![A screenshot of my assignment](./assets/MERN.png)
 
+## Links
+Heroku: https://book-search-engine93.herokuapp.com/
+Github: https://github.com/Adriana1013/MERN-Challenge-Book-Search-Engine
+
 ## User Story
 AS AN avid reader
 I WANT to search for new books to read
