@@ -1,6 +1,7 @@
 const { AuthenticationError } = require('apollo-server-express');
 const { User } = require('../models');
 const { signToken } = require('../utils/auth');
+const { sign } = require('jsonwebtoken')
 
 const resolvers = {
   Query: {
@@ -28,13 +29,13 @@ Mutation: {
         throw new AuthenticationError('Invalid Entry');
       }
 
-      const token = signToken(user);
+      const token = sign(user);
 
       return { token, user };
     },
 
-    addUser: async (parent, { username, email, password }) => {
-        const user = await User.create({ username, email, password });
+    addUser: async (parent, args) => {
+        const user = await User.create(args);
         const token = signToken(user);
         return { token, user };
       },

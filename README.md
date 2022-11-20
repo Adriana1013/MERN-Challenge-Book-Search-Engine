@@ -1,4 +1,7 @@
+#  MERN Challenge: Book Search Engine
 
+## Example
+![A screenshot of my assignment](./assets/MERN.png)
 
 ## User Story
 AS AN avid reader
@@ -35,3 +38,8 @@ WHEN I click on the Remove button on a book
 THEN that book is deleted from my saved books list
 WHEN I click on the Logout button
 THEN I am logged out of the site and presented with a menu with the options Search for Books and Login/Signup and an input field to search for books and a submit button  
+
+# Questions
+  -You can view my Github by searching: Adriana1013
+  
+  -You can reach me via email: avillegas@gmail.com
